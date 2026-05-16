@@ -1,0 +1,26 @@
+{
+  "name": "comphp/logging-monolog",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Logging\\Monolog\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Logging\\Monolog\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  }
+}
