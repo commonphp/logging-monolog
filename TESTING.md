@@ -14,15 +14,15 @@ composer require --dev phpunit/phpunit:^13.1
 
 ## Running tests
 
-Install dependencies for this repository, then run PHPUnit from this repository root:
+Install dependencies for this repository, then run PHPUnit from this package root:
 
 ```bash
 composer install
-vendor/bin/phpunit
+vendor/bin/phpunit -c phpunit.xml.dist
 ```
 
 On Windows, use `vendor\bin\phpunit.bat`.
 
 ## Notes
 
-TODO: ADD NOTES ON WHAT THIS LIBRARY ACTUALLY DOES
+The unit suite covers the driver contract, factory-created handlers/processors, PSR-3 level handling, and the adapters that bridge CommonPHP targets and processors into Monolog.

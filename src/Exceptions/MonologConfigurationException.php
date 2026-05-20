@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CommonPHP\Drivers\Logging\Monolog\Exceptions;
 
-class MonologConfigurationException
+class MonologConfigurationException extends MonologDriverException
 {
 
 }
